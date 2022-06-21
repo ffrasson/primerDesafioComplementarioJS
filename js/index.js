@@ -1,6 +1,6 @@
 // Login de usuario //
 
-/*let edad = parseInt(prompt("Ingrese su edad"))
+let edad = parseInt(prompt("Ingrese su edad"))
     
 if (edad >= 18){
     alert("Acceso exitoso!")
@@ -53,7 +53,7 @@ switch(nacionalidad){
   default:
     alert("Este sitio es sólo para Región Argentina");
     break;
-}*/
+}
 
 // Asignación de Orden //
 
@@ -67,8 +67,16 @@ for (let index = 0; index < 100; index++) {
 }
 console.log("Fin de la Lista")
 
+// Calculando //
 
-  
+let numero = parseInt(prompt("Ingrese un numero"));
+for (let index = 1; index <= 10; index++) {
+  let result = numero * index;
+  alert(numero + " X " + index + " = " + result);
+}
 
+// Muestra datos //
 
-
+let nombre = prompt("Ingresa tu Nombre");
+let cuadro = prompt("Ingresa tu Cuadro de Futbol");
+alert(`Hola ${nombre}, tu Cuadro de Fútbol es ${cuadro}`);
